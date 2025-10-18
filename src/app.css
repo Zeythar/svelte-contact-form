@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+@import '@fontsource/fira-mono';
+@variant dark (.dark &);
+@variant hc (.high-contrast &);
+
+@theme {
+	--color-yellow: oklch(0.968 0.211 109.77);
+	--color-cyan: oklch(0.9054 0.15455 194.769);
+	--color-magenta: oklch(0.7017 0.3225 328.36);
+}
+
+:root {
+	--font-body:
+		Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+	font-family: var(--font-body);
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+	background-color: white;
+}
+
+.dark body {
+	background-color: black;
+}
+
+.high-contrast body {
+	background-color: black;
+}
+
+/* Prefer focus-visible so outlines only appear for keyboard navigation.
+   For browsers supporting :focus-visible this shows the outline only when
+   the focus is from keyboard (e.g. Tab). When an element receives focus
+   from a mouse click it will match :focus but not :focus-visible, so we
+   explicitly hide the outline in that case. If you need older browser
+   support, consider the focus-visible polyfill (https://github.com/WICG/focus-visible). */
+
+:focus-visible {
+	outline: 2px solid var(--color-neutral-900);
+	outline-offset: 3px;
+	outline-style: dashed;
+}
+
+.dark :focus-visible {
+	outline: 2px dashed var(--color-neutral-200);
+}
+
+.high-contrast :focus-visible {
+	outline: 2px dashed var(--color-white);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+button {
+	cursor: pointer;
+}

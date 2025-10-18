@@ -1,0 +1,21 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"site_title": "Svelte demo (en)",
+	"site_subject1": "General question",
+	"site_subject2": "Bug report",
+	"site_subject3": "Feature request",
+	"site_subject4": "Other",
+	"contact_label_subject": "Subject",
+	"contact_label_email": "Your Email",
+	"contact_placeholder_email": "Your Email",
+	"contact_label_message": "Your Message",
+	"contact_placeholder_message": "Your Message",
+	"contact_submit": "Submit",
+	"contact_sending": "Sending…",
+	"contact_invalid_email": "Please enter a valid email address.",
+	"contact_invalid_subject": "Invalid subject selected.",
+	"contact_empty_message": "Message cannot be empty.",
+	"contact_sent_thanks": "Message sent — thank you!",
+	"contact_error_prefix": "Error:"
+}

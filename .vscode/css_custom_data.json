@@ -1,0 +1,60 @@
+{
+	"version": 1.1,
+	"properties": [
+		{
+			"name": "--color-primary",
+			"description": "Primary color for the theme"
+		},
+		{
+			"name": "--color-primary-hover",
+			"description": "Primary color hover state"
+		},
+		{
+			"name": "--color-secondary",
+			"description": "Secondary color for the theme"
+		},
+		{
+			"name": "--color-text-primary",
+			"description": "Primary text color"
+		},
+		{
+			"name": "--color-text-secondary",
+			"description": "Secondary text color"
+		},
+		{
+			"name": "--color-bg-primary",
+			"description": "Primary background color"
+		},
+		{
+			"name": "--color-bg-secondary",
+			"description": "Secondary background color"
+		},
+		{
+			"name": "--color-border",
+			"description": "Border color"
+		},
+		{
+			"name": "--color-border-input",
+			"description": "Input border color"
+		},
+		{
+			"name": "--color-action-primary",
+			"description": "Primary action color"
+		},
+		{
+			"name": "--color-action-secondary",
+			"description": "Secondary action color"
+		},
+		{
+			"name": "--color-focus-ring-primary",
+			"description": "Focus ring color"
+		},
+		{
+			"name": "--color-required",
+			"description": "Required field indicator color"
+		}
+	],
+	"atDirectives": [],
+	"pseudoClasses": [],
+	"pseudoElements": []
+}

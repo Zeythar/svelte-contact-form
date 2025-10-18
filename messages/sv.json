@@ -1,0 +1,21 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from sv!",
+	"site_title": "Svelte demo (sv)",
+	"site_subject1": "Allmän fråga",
+	"site_subject2": "Felrapport",
+	"site_subject3": "Funktionönskan",
+	"site_subject4": "Annat",
+	"contact_label_subject": "Ämne",
+	"contact_label_email": "Din e-post",
+	"contact_placeholder_email": "Din e-post",
+	"contact_label_message": "Ditt meddelande",
+	"contact_placeholder_message": "Ditt meddelande",
+	"contact_submit": "Skicka",
+	"contact_sending": "Skickar…",
+	"contact_invalid_email": "Ange en giltig e-postadress.",
+	"contact_invalid_subject": "Ogiltigt valt ämne.",
+	"contact_empty_message": "Meddelandet får inte vara tomt.",
+	"contact_sent_thanks": "Meddelandet skickat — tack!",
+	"contact_error_prefix": "Fel:"
+}
